@@ -1,0 +1,797 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28433F8F1B5D87B8006C15E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28433F8E1B5D87B8006C15E9 /* main.m */; };
+		28433F921B5D87B8006C15E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28433F911B5D87B8006C15E9 /* AppDelegate.m */; };
+		28433F951B5D87B8006C15E9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28433F941B5D87B8006C15E9 /* RootViewController.m */; };
+		28433F981B5D87B8006C15E9 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28433F971B5D87B8006C15E9 /* DataViewController.m */; };
+		28433F9B1B5D87B8006C15E9 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28433F9A1B5D87B8006C15E9 /* ModelController.m */; };
+		28433F9E1B5D87B8006C15E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28433F9C1B5D87B8006C15E9 /* Main.storyboard */; };
+		28433FA01B5D87B8006C15E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28433F9F1B5D87B8006C15E9 /* Images.xcassets */; };
+		28433FA31B5D87B8006C15E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28433FA11B5D87B8006C15E9 /* LaunchScreen.xib */; };
+		28433FAF1B5D87B8006C15E9 /* MyFoxWatchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28433FAE1B5D87B8006C15E9 /* MyFoxWatchTests.m */; };
+		284E1F531DEE2C35004BCAB5 /* MyFoxWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 28AF0FFC1B5D8F30002AC0A6 /* MyFoxWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		284E1F561DEE2C35004BCAB5 /* MyFoxWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 28AF100B1B5D8F30002AC0A6 /* MyFoxWatch WatchKit App.app */; };
+		285CE2011B73DE6C0050BB60 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 285CE2001B73DE6C0050BB60 /* Settings-Watch.bundle */; };
+		28659F6B1B76A6050002B4A7 /* MyFoxWatch WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 28AF100B1B5D8F30002AC0A6 /* MyFoxWatch WatchKit App.app */; };
+		28AF10031B5D8F30002AC0A6 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AF10021B5D8F30002AC0A6 /* InterfaceController.m */; };
+		28AF10061B5D8F30002AC0A6 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AF10051B5D8F30002AC0A6 /* NotificationController.m */; };
+		28AF10081B5D8F30002AC0A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AF10071B5D8F30002AC0A6 /* Images.xcassets */; };
+		28AF10141B5D8F30002AC0A6 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28AF10121B5D8F30002AC0A6 /* Interface.storyboard */; };
+		28AF10161B5D8F30002AC0A6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28AF10151B5D8F30002AC0A6 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28433FA91B5D87B8006C15E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28433F811B5D87B8006C15E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28433F881B5D87B8006C15E9;
+			remoteInfo = KaziMyFox;
+		};
+		284E1F511DEE2C35004BCAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28433F811B5D87B8006C15E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AF0FFB1B5D8F30002AC0A6;
+			remoteInfo = "KzMyFox Watch ext";
+		};
+		284E1F541DEE2C35004BCAB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28433F811B5D87B8006C15E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AF100A1B5D8F30002AC0A6;
+			remoteInfo = "KzMyFox Watch";
+		};
+		28659F6C1B76A6050002B4A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28433F811B5D87B8006C15E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28AF100A1B5D8F30002AC0A6;
+			remoteInfo = "KzHomeCtrl WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		284E1F571DEE2C35004BCAB5 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				284E1F531DEE2C35004BCAB5 /* MyFoxWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		284E1F581DEE2C35004BCAB5 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				284E1F561DEE2C35004BCAB5 /* MyFoxWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		28433F891B5D87B8006C15E9 /* MyFoxWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFoxWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28433F8D1B5D87B8006C15E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28433F8E1B5D87B8006C15E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28433F901B5D87B8006C15E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28433F911B5D87B8006C15E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28433F931B5D87B8006C15E9 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		28433F941B5D87B8006C15E9 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		28433F961B5D87B8006C15E9 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		28433F971B5D87B8006C15E9 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		28433F991B5D87B8006C15E9 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		28433F9A1B5D87B8006C15E9 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		28433F9D1B5D87B8006C15E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28433F9F1B5D87B8006C15E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28433FA21B5D87B8006C15E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		28433FA81B5D87B8006C15E9 /* MyFoxWatchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFoxWatchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28433FAD1B5D87B8006C15E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28433FAE1B5D87B8006C15E9 /* MyFoxWatchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyFoxWatchTests.m; sourceTree = "<group>"; };
+		285CE2001B73DE6C0050BB60 /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "Settings-Watch.bundle"; path = "../Settings-Watch.bundle"; sourceTree = "<group>"; };
+		285CE2031B73EC5E0050BB60 /* MyFoxWatch WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MyFoxWatch WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		288914721B76A9A500FAA79C /* MyFoxWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyFoxWatch.entitlements; sourceTree = "<group>"; };
+		28AF0FFC1B5D8F30002AC0A6 /* MyFoxWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MyFoxWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AF0FFF1B5D8F30002AC0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AF10001B5D8F30002AC0A6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		28AF10011B5D8F30002AC0A6 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		28AF10021B5D8F30002AC0A6 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		28AF10041B5D8F30002AC0A6 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		28AF10051B5D8F30002AC0A6 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		28AF10071B5D8F30002AC0A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28AF100B1B5D8F30002AC0A6 /* MyFoxWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyFoxWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28AF10111B5D8F30002AC0A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28AF10131B5D8F30002AC0A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		28AF10151B5D8F30002AC0A6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28433F861B5D87B8006C15E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28433FA51B5D87B8006C15E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF0FF91B5D8F30002AC0A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28433F801B5D87B8006C15E9 = {
+			isa = PBXGroup;
+			children = (
+				28433F8B1B5D87B8006C15E9 /* MyFoxWatch */,
+				28433FAB1B5D87B8006C15E9 /* MyFoxWatchTests */,
+				28AF0FFD1B5D8F30002AC0A6 /* MyFoxWatch WatchKit Extension */,
+				28AF100F1B5D8F30002AC0A6 /* MyFoxWatch WatchKit App */,
+				28433F8A1B5D87B8006C15E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28433F8A1B5D87B8006C15E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28433F891B5D87B8006C15E9 /* MyFoxWatch.app */,
+				28433FA81B5D87B8006C15E9 /* MyFoxWatchTests.xctest */,
+				28AF0FFC1B5D8F30002AC0A6 /* MyFoxWatch WatchKit Extension.appex */,
+				28AF100B1B5D8F30002AC0A6 /* MyFoxWatch WatchKit App.app */,
+			);
+			name = Products;
+			path = myfoxwatch;
+			sourceTree = "<group>";
+		};
+		28433F8B1B5D87B8006C15E9 /* MyFoxWatch */ = {
+			isa = PBXGroup;
+			children = (
+				288914721B76A9A500FAA79C /* MyFoxWatch.entitlements */,
+				285CE2001B73DE6C0050BB60 /* Settings-Watch.bundle */,
+				28433F901B5D87B8006C15E9 /* AppDelegate.h */,
+				28433F911B5D87B8006C15E9 /* AppDelegate.m */,
+				28433F931B5D87B8006C15E9 /* RootViewController.h */,
+				28433F941B5D87B8006C15E9 /* RootViewController.m */,
+				28433F961B5D87B8006C15E9 /* DataViewController.h */,
+				28433F971B5D87B8006C15E9 /* DataViewController.m */,
+				28433F991B5D87B8006C15E9 /* ModelController.h */,
+				28433F9A1B5D87B8006C15E9 /* ModelController.m */,
+				28433F9C1B5D87B8006C15E9 /* Main.storyboard */,
+				28433F9F1B5D87B8006C15E9 /* Images.xcassets */,
+				28433FA11B5D87B8006C15E9 /* LaunchScreen.xib */,
+				28433F8C1B5D87B8006C15E9 /* Supporting Files */,
+			);
+			name = MyFoxWatch;
+			path = myfoxwatch;
+			sourceTree = "<group>";
+		};
+		28433F8C1B5D87B8006C15E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28433F8D1B5D87B8006C15E9 /* Info.plist */,
+				28433F8E1B5D87B8006C15E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28433FAB1B5D87B8006C15E9 /* MyFoxWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				28433FAE1B5D87B8006C15E9 /* MyFoxWatchTests.m */,
+				28433FAC1B5D87B8006C15E9 /* Supporting Files */,
+			);
+			path = MyFoxWatchTests;
+			sourceTree = "<group>";
+		};
+		28433FAC1B5D87B8006C15E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28433FAD1B5D87B8006C15E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28AF0FFD1B5D8F30002AC0A6 /* MyFoxWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				285CE2031B73EC5E0050BB60 /* MyFoxWatch WatchKit Extension.entitlements */,
+				28AF10011B5D8F30002AC0A6 /* InterfaceController.h */,
+				28AF10021B5D8F30002AC0A6 /* InterfaceController.m */,
+				28AF10041B5D8F30002AC0A6 /* NotificationController.h */,
+				28AF10051B5D8F30002AC0A6 /* NotificationController.m */,
+				28AF10071B5D8F30002AC0A6 /* Images.xcassets */,
+				28AF0FFE1B5D8F30002AC0A6 /* Supporting Files */,
+			);
+			path = "MyFoxWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		28AF0FFE1B5D8F30002AC0A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28AF0FFF1B5D8F30002AC0A6 /* Info.plist */,
+				28AF10001B5D8F30002AC0A6 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28AF100F1B5D8F30002AC0A6 /* MyFoxWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				28AF10121B5D8F30002AC0A6 /* Interface.storyboard */,
+				28AF10151B5D8F30002AC0A6 /* Images.xcassets */,
+				28AF10101B5D8F30002AC0A6 /* Supporting Files */,
+			);
+			path = "MyFoxWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		28AF10101B5D8F30002AC0A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28AF10111B5D8F30002AC0A6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28433F881B5D87B8006C15E9 /* MyFoxWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28433FB21B5D87B8006C15E9 /* Build configuration list for PBXNativeTarget "MyFoxWatch" */;
+			buildPhases = (
+				28433F851B5D87B8006C15E9 /* Sources */,
+				28433F861B5D87B8006C15E9 /* Frameworks */,
+				28433F871B5D87B8006C15E9 /* Resources */,
+				284E1F581DEE2C35004BCAB5 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28659F6D1B76A6050002B4A7 /* PBXTargetDependency */,
+				284E1F551DEE2C35004BCAB5 /* PBXTargetDependency */,
+			);
+			name = MyFoxWatch;
+			productName = KaziMyFox;
+			productReference = 28433F891B5D87B8006C15E9 /* MyFoxWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28433FA71B5D87B8006C15E9 /* MyFoxWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28433FB51B5D87B8006C15E9 /* Build configuration list for PBXNativeTarget "MyFoxWatchTests" */;
+			buildPhases = (
+				28433FA41B5D87B8006C15E9 /* Sources */,
+				28433FA51B5D87B8006C15E9 /* Frameworks */,
+				28433FA61B5D87B8006C15E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28433FAA1B5D87B8006C15E9 /* PBXTargetDependency */,
+			);
+			name = MyFoxWatchTests;
+			productName = KaziMyFoxTests;
+			productReference = 28433FA81B5D87B8006C15E9 /* MyFoxWatchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		28AF0FFB1B5D8F30002AC0A6 /* KzMyFox Watch ext */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AF101E1B5D8F30002AC0A6 /* Build configuration list for PBXNativeTarget "KzMyFox Watch ext" */;
+			buildPhases = (
+				28AF0FF81B5D8F30002AC0A6 /* Sources */,
+				28AF0FF91B5D8F30002AC0A6 /* Frameworks */,
+				28AF0FFA1B5D8F30002AC0A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KzMyFox Watch ext";
+			productName = "KaziMyFox WatchKit Extension";
+			productReference = 28AF0FFC1B5D8F30002AC0A6 /* MyFoxWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		28AF100A1B5D8F30002AC0A6 /* KzMyFox Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28AF101B1B5D8F30002AC0A6 /* Build configuration list for PBXNativeTarget "KzMyFox Watch" */;
+			buildPhases = (
+				28AF10091B5D8F30002AC0A6 /* Resources */,
+				284E1F571DEE2C35004BCAB5 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				284E1F521DEE2C35004BCAB5 /* PBXTargetDependency */,
+			);
+			name = "KzMyFox Watch";
+			productName = "KaziMyFox WatchKit App";
+			productReference = 28AF100B1B5D8F30002AC0A6 /* MyFoxWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28433F811B5D87B8006C15E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Madjid KAZI-TANI";
+				TargetAttributes = {
+					28433F881B5D87B8006C15E9 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3JL2NJVFT8;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					28433FA71B5D87B8006C15E9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 28433F881B5D87B8006C15E9;
+					};
+					28AF0FFB1B5D8F30002AC0A6 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3JL2NJVFT8;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					28AF100A1B5D8F30002AC0A6 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 3JL2NJVFT8;
+					};
+				};
+			};
+			buildConfigurationList = 28433F841B5D87B8006C15E9 /* Build configuration list for PBXProject "MyFoxWatch" */;
+			compatibilityVersion = "Xcode 6.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28433F801B5D87B8006C15E9;
+			productRefGroup = 28433F8A1B5D87B8006C15E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28433F881B5D87B8006C15E9 /* MyFoxWatch */,
+				28433FA71B5D87B8006C15E9 /* MyFoxWatchTests */,
+				28AF0FFB1B5D8F30002AC0A6 /* KzMyFox Watch ext */,
+				28AF100A1B5D8F30002AC0A6 /* KzMyFox Watch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28433F871B5D87B8006C15E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28659F6B1B76A6050002B4A7 /* MyFoxWatch WatchKit App.app in Resources */,
+				285CE2011B73DE6C0050BB60 /* Settings-Watch.bundle in Resources */,
+				28433F9E1B5D87B8006C15E9 /* Main.storyboard in Resources */,
+				28433FA31B5D87B8006C15E9 /* LaunchScreen.xib in Resources */,
+				28433FA01B5D87B8006C15E9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28433FA61B5D87B8006C15E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF0FFA1B5D8F30002AC0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AF10081B5D8F30002AC0A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF10091B5D8F30002AC0A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AF10141B5D8F30002AC0A6 /* Interface.storyboard in Resources */,
+				28AF10161B5D8F30002AC0A6 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28433F851B5D87B8006C15E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28433F981B5D87B8006C15E9 /* DataViewController.m in Sources */,
+				28433F921B5D87B8006C15E9 /* AppDelegate.m in Sources */,
+				28433F9B1B5D87B8006C15E9 /* ModelController.m in Sources */,
+				28433F8F1B5D87B8006C15E9 /* main.m in Sources */,
+				28433F951B5D87B8006C15E9 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28433FA41B5D87B8006C15E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28433FAF1B5D87B8006C15E9 /* MyFoxWatchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28AF0FF81B5D8F30002AC0A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AF10061B5D8F30002AC0A6 /* NotificationController.m in Sources */,
+				28AF10031B5D8F30002AC0A6 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28433FAA1B5D87B8006C15E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28433F881B5D87B8006C15E9 /* MyFoxWatch */;
+			targetProxy = 28433FA91B5D87B8006C15E9 /* PBXContainerItemProxy */;
+		};
+		284E1F521DEE2C35004BCAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AF0FFB1B5D8F30002AC0A6 /* KzMyFox Watch ext */;
+			targetProxy = 284E1F511DEE2C35004BCAB5 /* PBXContainerItemProxy */;
+		};
+		284E1F551DEE2C35004BCAB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AF100A1B5D8F30002AC0A6 /* KzMyFox Watch */;
+			targetProxy = 284E1F541DEE2C35004BCAB5 /* PBXContainerItemProxy */;
+		};
+		28659F6D1B76A6050002B4A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28AF100A1B5D8F30002AC0A6 /* KzMyFox Watch */;
+			targetProxy = 28659F6C1B76A6050002B4A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28433F9C1B5D87B8006C15E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28433F9D1B5D87B8006C15E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28433FA11B5D87B8006C15E9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28433FA21B5D87B8006C15E9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		28AF10121B5D8F30002AC0A6 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28AF10131B5D8F30002AC0A6 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28433FB01B5D87B8006C15E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		28433FB11B5D87B8006C15E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28433FB31B5D87B8006C15E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyFoxWatch/MyFoxWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/MyFoxWatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MyFoxWatch;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		28433FB41B5D87B8006C15E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MyFoxWatch/MyFoxWatch.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/MyFoxWatch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MyFoxWatch;
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		28433FB61B5D87B8006C15E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyFoxWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MyFoxWatchTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFoxWatch.app/MyFoxWatch";
+			};
+			name = Debug;
+		};
+		28433FB71B5D87B8006C15E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MyFoxWatchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "KZ.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MyFoxWatchTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFoxWatch.app/MyFoxWatch";
+			};
+			name = Release;
+		};
+		28AF101C1B5D8F30002AC0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = MyFoxWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "MyFoxWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = KZ.MyFoxWatch.watchkitapp;
+				PRODUCT_NAME = "MyFoxWatch WatchKit App";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		28AF101D1B5D8F30002AC0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = MyFoxWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "MyFoxWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = KZ.MyFoxWatch.watchkitapp;
+				PRODUCT_NAME = "MyFoxWatch WatchKit App";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		28AF101F1B5D8F30002AC0A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MyFoxWatch WatchKit Extension/MyFoxWatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MyFoxWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KZ.MyFoxWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "MyFoxWatch WatchKit Extension";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		28AF10201B5D8F30002AC0A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "MyFoxWatch WatchKit Extension/MyFoxWatch WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "MyFoxWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KZ.MyFoxWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "MyFoxWatch WatchKit Extension";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28433F841B5D87B8006C15E9 /* Build configuration list for PBXProject "MyFoxWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28433FB01B5D87B8006C15E9 /* Debug */,
+				28433FB11B5D87B8006C15E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28433FB21B5D87B8006C15E9 /* Build configuration list for PBXNativeTarget "MyFoxWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28433FB31B5D87B8006C15E9 /* Debug */,
+				28433FB41B5D87B8006C15E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28433FB51B5D87B8006C15E9 /* Build configuration list for PBXNativeTarget "MyFoxWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28433FB61B5D87B8006C15E9 /* Debug */,
+				28433FB71B5D87B8006C15E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AF101B1B5D8F30002AC0A6 /* Build configuration list for PBXNativeTarget "KzMyFox Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AF101C1B5D8F30002AC0A6 /* Debug */,
+				28AF101D1B5D8F30002AC0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28AF101E1B5D8F30002AC0A6 /* Build configuration list for PBXNativeTarget "KzMyFox Watch ext" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28AF101F1B5D8F30002AC0A6 /* Debug */,
+				28AF10201B5D8F30002AC0A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28433F811B5D87B8006C15E9 /* Project object */;
+}
